@@ -26,8 +26,37 @@
   * Install from Github : https://github.com/s0md3v/Photon.git
   * Running Tools
     ```
-    python3 photon.py -u exampe.com -l 3 -t 200 --wayback
+    ┌──(root㉿kali)-[/home/kali/Photon]
+    └─# python3 photon.py -u awc.my.id -l 3 -t 200 --wayback
+    /home/kali/Photon/photon.py:19: SyntaxWarning: invalid escape sequence '\/'
+      / %s__%s \/ /_  ____  / /_____  ____
+          ____  __          __
+         / __ \/ /_  ____  / /_____  ____
+        / /_/ / __ \/ __ \/ __/ __ \/ __ \
+       / ____/ / / / /_/ / /_/ /_/ / / / /
+      /_/   /_/ /_/\____/\__/\____/_/ /_/ v1.3.2
+    
+    [~] Fetching URLs from archive.org
+    [+] Retrieved -1 URLs from archive.org
+    [+] URLs retrieved from robots.txt: 1
+    [~] Level 1: 2 URLs
+    [!] Progress: 2/2
+    [~] Crawling 0 JavaScript files
+    
+    --------------------------------------------------
+    [+] Robots: 1
+    [+] Internal: 2
+    [+] External: 3
+    --------------------------------------------------
+    [!] Total requests made: 3
+    [!] Total time taken: 0 minutes 6 seconds
+    [!] Requests per second: 0
+    [+] Results saved in awc.my.id directory
+    
+    ┌──(root㉿kali)-[/home/kali/Photon]
+    └─#
     ```
+    
   * Open Result Folder
     * /photon/example.com/internal.txt
     * /photon/example.com/external.txt
@@ -50,17 +79,109 @@
   * Install form Github : https://github.com/Moh-Gebril/grecon.git
   * Running Tools
     ```
-    python3 grecon_cli.py -t 103.150.191.25 --nmap --nse
+    ┌──(root㉿kali)-[/home/kali/grecon]
+    └─# python3 grecon_cli.py -t awcloud.my.id --nmap --nse
+    
+         ██████╗ ██████╗ ███████╗ ██████╗ ██████╗ ███╗   ██╗
+        ██╔════╝ ██╔══██╗██╔════╝██╔════╝██╔═══██╗████╗  ██║
+        ██║  ███╗██████╔╝█████╗  ██║     ██║   ██║██╔██╗ ██║
+        ██║   ██║██╔══██╗██╔══╝  ██║     ██║   ██║██║╚██╗██║
+        ╚██████╔╝██║  ██║███████╗╚██████╗╚██████╔╝██║ ╚████║
+         ╚═════╝ ╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═════╝ ╚═╝  ╚═══╝
+    
+    ================================================================================
+      GRecon v1.0.0 - Advanced Network Reconnaissance Tool
+      Author: Mohamed Gebril
+      GitHub: https://github.com/Moh-Gebril/grecon
+      Running on: Linux 6.18.5+kali-amd64
+    ================================================================================
+      Scan initiated at: 2026-03-31 13:23:55
+    ================================================================================
+    
+    --------------------------------------------------------------------------------
+      Target: awcloud.my.id
+      Time started: 2026-03-31 13:23:55
+    --------------------------------------------------------------------------------
+    
+    2026-03-31 13:23:55,910 - grecon.core.scanner - INFO - Starting scan of 172.67.179.243 (awcloud.my.id)
+    2026-03-31 13:23:55,910 - grecon.core.scanner - INFO - Port range: 1-65535
+    2026-03-31 13:23:55,910 - grecon.core.scanner - INFO - Using 200 threads
+    2026-03-31 13:23:56,585 - grecon.core.scanner - INFO - Port 443 is open
+    Port 443 is open
+    2026-03-31 13:23:59,001 - grecon.core.scanner - INFO - Port 2052 is open
+    Port 2052 is open
+    2026-03-31 13:23:59,024 - grecon.core.scanner - INFO - Port 2053 is open
+    Port 2053 is open
+    2026-03-31 13:23:59,024 - grecon.core.scanner - INFO - Port 2083 is open
+    Port 2083 is open
+    2026-03-31 13:23:59,025 - grecon.core.scanner - INFO - Port 2087 is open
+    Port 2087 is open
+    2026-03-31 13:23:59,025 - grecon.core.scanner - INFO - Port 2086 is open
+    Port 2086 is open
+    2026-03-31 13:23:59,025 - grecon.core.scanner - INFO - Port 2095 is open
+    Port 2095 is open
+    2026-03-31 13:23:59,026 - grecon.core.scanner - INFO - Port 2096 is open
+    Port 2096 is open
+    2026-03-31 13:23:59,026 - grecon.core.scanner - INFO - Port 2082 is open
+    Port 2082 is open
+    ^C
+    
+    Scan interrupted by user. Exiting...
+    
+    ┌──(root㉿kali)-[/home/kali/grecon]
+    └─#
     ```
     
  * Task 7. Gather Wordlist from Target Website using CeWL
    * Running Tools
      ```
-     cewl -d 2 -m 5 www.example.com
+     ┌──(root㉿kali)-[/home/kali]
+     └─# cewl -w wordlist.txt -d 2 -m 5 awcloud.my.id
+     CeWL 6.2.1 (More Fixes) Robin Wood (robin@digi.ninja) (https://digi.ninja/)
+     
      ```
    * Save Wordlist
      ```
-     cewl -w wordlist.txt -d 2 -m 5 www.example.com
+     ┌──(root㉿kali)-[/home/kali]
+     └─# cat wordlist.txt
+     server
+     Cloudflare
+     awcloud
+     Error
+     information
+     Working
+     website
+     owner
+     Contact
+     hosting
+     provider
+     letting
+     responding
+     Additional
+     troubleshooting
+     Click
+     reveal
+     Performance
+     security
+     error
+     footer
+     minutes
+     again
+     Please
+     visitor
+     displaying
+     result
+     connection
+     returning
+     happened
+     Singapore
+     Browser
+     cloudflare
+     Visit
+     
+     ┌──(root㉿kali)-[/home/kali]
+     └─#
+
      ```
     
 #### E. Email Footprinting

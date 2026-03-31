@@ -51,7 +51,7 @@
     
     ```
 * Task 6. Footprinting Target using OSINT Framework
-  * Access Website : [#osintframework.com]
+  * Access Website : osintframework.com
 * Allternative Tools
   * Recon-dog
   * GRecon

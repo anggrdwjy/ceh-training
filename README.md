@@ -5,15 +5,75 @@
 #### A. Footprinting Search Engine
 #### B. Footprinting Web Services
 #### C. Footprinting Social Engineering Sites
+
 #### D. Website Footprinting
+* Task 1. Gather Information About Target using PING CMD
+  * Testing
+  ```
+  ping example.com
+  ping example.com -f 1400
+  ping example.com -f -l 1300
+  ping example.com -i 3 
+  ping example.com -i 2 -n 1
+  ping 10.0.0.1 
+  ping 10.0.0.1 -f -l 1300
+  ping 10.0.0.1 -f 1400
+  ping 10.0.0.1 -i 3
+  ping 10.0.0.1 -i 2 -n 1
+  ```
+    
+* Task 2. Gather Information About Target Website using Photon
+  * Install from Github : https://github.com/s0md3v/Photon.git
+  * Running Tools
+    ```
+    python3 photon.py -u exampe.com -l 3 -t 200 --wayback
+    ```
+  * Open Result Folder
+    * /photon/example.com/internal.txt
+    * /photon/example.com/external.txt
+    * /photon/example.com/robots.txt
+      
+* Task 3. Gather Information About Target Website using Central Ops
+  * Search Domain Target from Online Tools : https://www.centralops.net
+  
+* Task 4. Extract Company Data using Web Data Extractor
+  * Search Web Data Extractor 8.3 [Outdated]
+
+* Task 5. Mirror Target Website using HTTrack Website Copier
+  * Download from : https://www.httrack.com
+  * Running Tools
+    * Create Project -> Input Domain
+    * Set Options -> Scan Rules -> Checklist [jpg,gif,cgi-bin,cgi]
+    * Finish
+      
+* Task 6. Gather Information About Target Website using GRecon
+  * Install form Github : https://github.com/Moh-Gebril/grecon.git
+  * Running Tools
+    ```
+    python3 grecon_cli.py -t 103.150.191.25 --nmap --nse
+    ```
+    
+ * Task 7. Gather Wordlist from Target Website using CeWL
+   * Running Tools
+     ```
+     cewl -d 2 -m 5 www.example.com
+     ```
+   * Save Wordlist
+     ```
+     cewl -w wordlist.txt -d 2 -m 5 www.example.com
+     ```
+    
 #### E. Email Footprinting
+* Task 1. Perform Email Footprinting
+  * Install eMailTrackerPro.exe [Outdated]
+
 #### F. Whois Footprinting
 * Task 1. Perform Whois Lookup using DomainTools
   * Search Domain Target from Online Tools : https://whois.domaintools.com
 
 #### G. DNS Footprinting
 * Task 1. Gather DNS Information using NSLOOKUP
- ```
+  ```
   C:\Users\Administrator>nslookup
   Default Server:  UnKnown
   Address:  192.168.1.1
@@ -48,7 +108,7 @@
             108.162.194.135
             162.159.38.135
   >
- ```
+  ```
 * Task 2. Gather DNS Information using Online Tools
   * Search Domain Target from Online Tools : https://kloth.net
 

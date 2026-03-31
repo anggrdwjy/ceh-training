@@ -14,6 +14,10 @@
 * Task 1. Footprinting Target using Recon-ng
   * Install Recon-ng
   ```
+  apt install recon-ng -y
+  ```
+  * Running Tools
+  ```
     ┌──(root㉿kali)-[/home/kali]
   └─# recon-ng
   [*] Version check disabled.
@@ -47,6 +51,12 @@
   [2]  Disabled modules
   
   [recon-ng][default] >
+  ```
+  * Optional
+  ```
+  recon-ng
+  recon-cli
+  recon-web
   ```
   
 * Task 2. Footprinting using Maltego

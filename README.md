@@ -12,11 +12,56 @@
 #### H. Perform Network Footprinting
 #### I. Perform Footprinting using Footprinting Tools
 * Task 1. Footprinting Target using Recon-ng
-* Task 2. Footprinting using Maltego
-* Task 3. Footprinting Target using OSRFramework
-  * Install OSFramework
+  * Install Recon-ng
   ```
-  apt install osframework -y
+    ┌──(root㉿kali)-[/home/kali]
+  └─# recon-ng
+  [*] Version check disabled.
+  
+      _/_/_/    _/_/_/_/    _/_/_/    _/_/_/    _/      _/            _/      _/    _/_/_/
+     _/    _/  _/        _/        _/      _/  _/_/    _/            _/_/    _/  _/
+    _/_/_/    _/_/_/    _/        _/      _/  _/  _/  _/  _/_/_/_/  _/  _/  _/  _/  _/_/_/
+   _/    _/  _/        _/        _/      _/  _/    _/_/            _/    _/_/  _/      _/
+  _/    _/  _/_/_/_/    _/_/_/    _/_/_/    _/      _/            _/      _/    _/_/_/
+  
+  
+                                            /\
+                                           / \\ /\
+      Sponsored by...               /\  /\/  \\V  \/\
+                                   / \\/ // \\\\\ \\ \/\
+                                  // // BLACK HILLS \/ \\
+                                 www.blackhillsinfosec.com
+  
+                    ____   ____   ____   ____ _____ _  ____   ____  ____
+                   |____] | ___/ |____| |       |   | |____  |____ |
+                   |      |   \_ |    | |____   |   |  ____| |____ |____
+                                     www.practisec.com
+  
+                        [recon-ng v5.1.2, Tim Tomes (@lanmaster53)]
+  
+  [91] Recon modules
+  [8]  Reporting modules
+  [4]  Import modules
+  [2]  Exploitation modules
+  [2]  Discovery modules
+  [2]  Disabled modules
+  
+  [recon-ng][default] >
+  ```
+  
+* Task 2. Footprinting using Maltego
+  * Install Maltego GUI
+  * Create New Graph -> Domain -> All Transform
+  * Advanced
+    - to DNS Name (Authority, MX, NS)
+    - to IP Address
+    - to Location
+    - to Domain
+    - to Entities Whois
+* Task 3. Footprinting Target using OSRFramework
+  * Install OSRFramework
+  ```
+  apt install osrframework -y
   ```
   * Running Tools
   ```

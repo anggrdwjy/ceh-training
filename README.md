@@ -8,48 +8,46 @@
 #### D. Website Footprinting
 #### E. Email Footprinting
 #### F. Whois Footprinting
+* Task 1. Perform Whois Lookup using DomainTools
+  * Search Domain Target from Online Tools : https://whois.domaintools.com
+
 #### G. DNS Footprinting
 * Task 1. Gather DNS Information using NSLOOKUP
  ```
- C:\Users\Administrator>nslookup
-Default Server:  UnKnown
-Address:  192.168.1.1
-
-> set type=a
-> awcloud.my.id
-Server:  UnKnown
-Address:  192.168.1.1
-
-Non-authoritative answer:
-Name:    awcloud.my.id
-Addresses:  104.21.31.205
-          172.67.179.243
-
-> set type=cname
-> awcloud.my.id
-Server:  UnKnown
-Address:  192.168.1.1
-
-awcloud.my.id
-        primary name server = cecelia.ns.cloudflare.com
-        responsible mail addr = dns.cloudflare.com
-        serial  = 2397555721
-        refresh = 10000 (2 hours 46 mins 40 secs)
-        retry   = 2400 (40 mins)
-        expire  = 604800 (7 days)
-        default TTL = 1800 (30 mins)
-> set type=a
-> cecelia.ns.cloudflare.com
-Server:  UnKnown
-Address:  192.168.1.1
-
-Non-authoritative answer:
-Name:    cecelia.ns.cloudflare.com
-Addresses:  172.64.34.135
-          108.162.194.135
-          162.159.38.135
-
->
+  C:\Users\Administrator>nslookup
+  Default Server:  UnKnown
+  Address:  192.168.1.1
+  > set type=a
+  > awcloud.my.id
+  Server:  UnKnown
+  Address:  192.168.1.1
+  Non-authoritative answer:
+  Name:    awcloud.my.id
+  Addresses:  104.21.31.205
+            172.67.179.243
+  > set type=cname
+  > awcloud.my.id
+  Server:  UnKnown
+  Address:  192.168.1.1
+  awcloud.my.id
+          primary name server = cecelia.ns.cloudflare.com
+          responsible mail addr = dns.cloudflare.com
+          serial  = 2397555721
+          refresh = 10000 (2 hours 46 mins 40 secs)
+          retry   = 2400 (40 mins)
+          expire  = 604800 (7 days)
+          default TTL = 1800 (30 mins)
+  > set type=a
+  > cecelia.ns.cloudflare.com
+  Server:  UnKnown
+  Address:  192.168.1.1
+  
+  Non-authoritative answer:
+  Name:    cecelia.ns.cloudflare.com
+  Addresses:  172.64.34.135
+            108.162.194.135
+            162.159.38.135
+  >
  ```
 * Task 2. Gather DNS Information using Online Tools
   * Search Domain Target from Online Tools : https://kloth.net

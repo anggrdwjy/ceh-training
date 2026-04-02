@@ -27,3 +27,8 @@
 *  F. Perform SMTP Enumeration
 *  G. Perform RPC, SMB and FTP Enumeration
 *  H. Perform Enumeration using Various Enumeration Tools
+
+### Module 5. Vulnerability Analysis
+*  A. Perform Vulnerability Research with Vulnerability Scoring Systems and Databases
+*  B. Perform Vulnerability Assessment using Various Vulnerability Assessment Tools
+*  C. Perform Web Servers and Application Vulnerability Scanning using CGI Scanner Nikto

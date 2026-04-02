@@ -75,10 +75,35 @@
        
 ### Module 3. Scanning Networks
 *  A. Perform Host Discovery
+   * Package Tools
+     * NMAP : https://nmap.org/download
+     * Angry IP Scanner : https://angryip.org/download/#windows
+       
 *  B. Perform Port and Services Discovery
+   * Package Tools
+     * MegaPing : https://magnetsoft.com/producs-download
+     * NetScanTools Pro : https://netscantools.com/ntbasicrequestform.html
+     * SX : https://github.com/v-byte-cpu/sx
+     * Zenmap : https://nmap.org/zenmap
+     * Hping3 : https://github.com/antirez/hping
+       
 *  C. Perform OS Discovery
+   * Package Tools
+     * Wireshark : https://www.wireshark.org/download.html
+     * NMAP : https://nmap.org/download
+     * Unicornscan : https://www.kali.org/tools/unicornscan/
+       
 *  D. Scan Beyond IDS and Firewall (Techniques to Evade IDS/Firewall)
+   * Package Tools
+     * NMAP : https://nmap.org/download
+     * Colasoft Packet Builder : https://www.colasoft.com/download/products/download_packet_builder.php
+     * Hping3 : https://github.com/antirez/hping
+     * NetScanTools Pro : https://netscantools.com/ntbasicrequestform.html
+       
 *  E. Perform Network Scanning using Various Scanning Tools
+   * Package Tools
+     * Metasploit : https://www.metasploit.com/
+       
 
 ### Module 4. Enumeration
 *  A. Perform NetBIOS Enumeration

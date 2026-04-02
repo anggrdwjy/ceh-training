@@ -109,8 +109,8 @@
 *  A. Perform NetBIOS Enumeration
    * Package Tools
      * Command-Prompt Utility Windows (CMD)
-     * NetBIOSEnumerator :
-     * NMAP
+     * NetBIOSEnumerator : https://nbtenum.sourceforge.net/
+     * NMAP : https://nmap.org/download
      * Global Network Inventory
      * Advanced IP Scanner
      * Hyena
@@ -118,48 +118,49 @@
 
 *  B. Perform SNMP Enumeration
    * Package Tools
-     * NMAP
-     * Snmp-check
-     * SoftPerfect Network Scanner
-     * SnmpWalk
+     * NMAP : https://nmap.org/download
+     * Snmp-check : https://www.kali.org/tools/snmpcheck/
+     * SoftPerfect Network Scanner : https://www.softperfect.com/products/networkscanner/
+     * SnmpWalk : https://www.kali.org/tools/net-snmp/
      
 *  C. Perform LDAP Enumeration
    * Package Tools
-     * ADExplorer :
-     * NMAP
-     * Python
+     * ADExplorer : https://live.sysinternals.com/ADExplorer.exe
+     * NMAP : https://nmap.org/download
+     * Python : https://www.python.org/
+     * ldapsearch : https://github.com/dinigalab/ldapsearch
      
 *  D. Perform NFS Enumeration
    * Package Tools
-     * NMAP
-     * Superenum
-     * RPCScan
+     * NMAP : https://nmap.org/download
+     * Superenum : https://github.com/p4pentest/SuperEnum.git
+     * RPCScan : https://github.com/hegusung/RPCScan.git
      
 *  E. Perform DNS Enumeration
    * Package Tools
      * Dig
      * NSLOOKUP
-     * dnsrecon
-     * NMAP
-     * LDNS
-     * nsec3map
-     * nsec3walker
-     * DNSwalk
+     * dnsrecon : https://www.kali.org/tools/dnsrecon/
+     * NMAP : https://nmap.org/download
+     * LDNS : https://github.com/NLnetLabs/ldns
+     * nsec3map : https://github.com/anonion0/nsec3map
+     * nsec3walker : https://github.com/unsecured-company/nsec3walker
+     * DNSwalk : https://www.kali.org/tools/dnswalk/
      
 *  F. Perform SMTP Enumeration
    * Package Tools
-     * NMAP
+     * NMAP : https://nmap.org/download
      
 *  G. Perform RPC, SMB and FTP Enumeration
    * Package Tools
-     * NetScanTools
-     * NMAP
+     * NetScanTools : https://www.netscantools.com/nstprodemorequestform.html
+     * NMAP : https://nmap.org/download
      
 *  H. Perform Enumeration using Various Enumeration Tools
    * Package Tools
-     * Global Network Inventory
-     * Angry IP Scanner
-     * Enum4linux
+     * Global Network Inventory : https://magnetosoft.com/product-global-network-inventory/
+     * Angry IP Scanner : https://angryip.org/download/#windows
+     * Enum4linux : https://www.kali.org/tools/enum4linux/
 
 ### Module 5. Vulnerability Analysis
 *  A. Perform Vulnerability Research with Vulnerability Scoring Systems and Databases

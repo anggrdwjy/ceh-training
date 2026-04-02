@@ -32,7 +32,7 @@
      * Photon : https://github.com/s0md3v/Photon.git
      * theHarvester : https://github.com/laramies/theHarvester
      * sherlock : https://github.com/sherlock-project/sherlock
-     * Web Data Extractor
+     * Web Data Extractor : https://web-data-extractor.apponic.com/
      * HTTrack Website Copier : https://www.httrack.com
      * GRecon : https://github.com/Moh-Gebril/grecon.git
      * CeWL : https://github.com/digininja/CeWL
@@ -111,10 +111,10 @@
      * Command-Prompt Utility Windows (CMD)
      * NetBIOSEnumerator : https://nbtenum.sourceforge.net/
      * NMAP : https://nmap.org/download
-     * Global Network Inventory
-     * Advanced IP Scanner
-     * Hyena
-     * Nsauditor Network Security Auditor
+     * Global Network Inventory : https://magnetosoft.com/product-global-network-inventory/
+     * Advanced IP Scanner : https://angryip.org/download/#windows
+     * Hyena : https://www.systemtools.com/hyena/download.htm
+     * Nsauditor Network Security Auditor : https://www.nsauditor.com/
 
 *  B. Perform SNMP Enumeration
    * Package Tools

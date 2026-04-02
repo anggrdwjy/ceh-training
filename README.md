@@ -107,13 +107,59 @@
 
 ### Module 4. Enumeration
 *  A. Perform NetBIOS Enumeration
+   * Package Tools
+     * Command-Prompt Utility Windows (CMD)
+     * NetBIOSEnumerator :
+     * NMAP
+     * Global Network Inventory
+     * Advanced IP Scanner
+     * Hyena
+     * Nsauditor Network Security Auditor
+
 *  B. Perform SNMP Enumeration
+   * Package Tools
+     * NMAP
+     * Snmp-check
+     * SoftPerfect Network Scanner
+     * SnmpWalk
+     
 *  C. Perform LDAP Enumeration
+   * Package Tools
+     * ADExplorer :
+     * NMAP
+     * Python
+     
 *  D. Perform NFS Enumeration
+   * Package Tools
+     * NMAP
+     * Superenum
+     * RPCScan
+     
 *  E. Perform DNS Enumeration
+   * Package Tools
+     * Dig
+     * NSLOOKUP
+     * dnsrecon
+     * NMAP
+     * LDNS
+     * nsec3map
+     * nsec3walker
+     * DNSwalk
+     
 *  F. Perform SMTP Enumeration
+   * Package Tools
+     * NMAP
+     
 *  G. Perform RPC, SMB and FTP Enumeration
+   * Package Tools
+     * NetScanTools
+     * NMAP
+     
 *  H. Perform Enumeration using Various Enumeration Tools
+   * Package Tools
+     * Global Network Inventory
+     * Angry IP Scanner
+     * Enum4linux
 
 ### Module 5. Vulnerability Analysis
 *  A. Perform Vulnerability Research with Vulnerability Scoring Systems and Databases

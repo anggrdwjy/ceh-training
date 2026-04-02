@@ -243,11 +243,11 @@
 	```
 	nmap -p 25 --script=smtp-enum-users 172.23.74.125
 	```
-   * SMTP Open Relay
+  * SMTP Open Relay
 	```
 	nmap -p 25 --script=smtp-open-relay 172.23.74.125
 	```
-   * SMTP Command Available
+  * SMTP Command Available
 	```
 	nmap -p 25 --script=smtp-command 172.23.74.125
 	```

@@ -28,6 +28,8 @@
    * Online Tools
      * CentralOps : https://www.centralops.net
    * Package Tools
+     * Command-Prompt Utility Windows (CMD)
+     * Photon : https://github.com/s0md3v/Photon.git
      * theHarvester : https://github.com/laramies/theHarvester
      * sherlock : https://github.com/sherlock-project/sherlock
      * Web Data Extractor
@@ -36,11 +38,41 @@
      * CeWL : https://github.com/digininja/CeWL
        
 *  E. Email Footprinting
+   * Package Tools
+     * eMailTracekerPro
+       
 *  F. Whois Footprinting
+   * Online Tools
+     * DomainTools : https://whois.domaintools.com
+       
 *  G. DNS Footprinting
+   * Online Tools
+     * Kloth : https://kloth.net
+   * Package Tools
+     * NSLOOKUP
+       
 *  H. Perform Network Footprinting
+   * Online Tools
+     * American Registry for Internet Numbers : https://www.arin.net
+   * Package Tools
+     * NSLOOKUP
+     * Traceroute
+       
 *  I. Perform Footprinting using Footprinting Tools
-
+   * Online Tools
+     * OSINT Framework : https://www.osintframework.com 
+   * Package Tools
+     * Recon-ng : https://github.com/lanmaster53/recon-ng
+     * Maltego : https://www.maltego.com/
+     * OSRFramework : https://www.kali.org/tools/osrframework/
+     * FOCA : https://github.com/ElevenPaths/FOCA.git
+     * BillCiper : https://github.com/bahatiphill/BillCipher.git
+     * Recon-dog : https://github.com/s0md3v/ReconDog
+     * GRecon : https://github.com/Moh-Gebril/grecon.git
+     * Th3Inspector : https://github.com/moham3driahi/th3inspector
+     * Raccon : https://github.com/nettitude/raccoon
+     * Orb : https://github.com/epsylon/orb
+       
 ### Module 3. Scanning Networks
 *  A. Perform Host Discovery
 *  B. Perform Port and Services Discovery

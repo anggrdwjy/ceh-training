@@ -26,4 +26,4 @@
 *  E. Perform DNS Enumeration
 *  F. Perform SMTP Enumeration
 *  G. Perform RPC, SMB and FTP Enumeration
-*  H. Perform Enumeration using Various Enumeration Tool
+*  H. Perform Enumeration using Various Enumeration Tools

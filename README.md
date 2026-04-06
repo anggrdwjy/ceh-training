@@ -184,9 +184,9 @@
 ## Module 7. Malware Threats
 * A. Gain Access to Target System using Trojans
   * Malware Tools
-    * njRAT : https://github.com/alyaparan/NjRat-0.7D
-    * SwayzCryptor :
-    * Theef :
+    * njRAT (Build Malware) : https://github.com/alyaparan/NjRat-0.7D
+    * SwayzCryptor (Encrypt Malware) :
+    * TheefRAT Trojan v2.10 (Server Trojan) :
       
 * B. Infect Target System using Virus
   * Malware Tools

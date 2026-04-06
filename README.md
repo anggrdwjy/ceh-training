@@ -6,23 +6,19 @@
        * Integrity
        * Availability
        * Authenticity
-       * Non-Repudiation
-      
-  * Motives, Goals, And Objectives of Information Security Attacks
-       
+       * Non-Repudiation  
+  * Motives, Goals, And Objectives of Information Security Attacks 
   * Classification of Attacks
        * Passive Attacks
        * Active Attacks
        * Close-in Attacks
        * Insider Attacks
-       * Distribution Attacks
-      
+       * Distribution Attacks 
   * Information Warfare
     
 * B. Explain Hacking Methodologies and Frameworks
-  * 1. Hacking Methodologies and Frameworks
-       
-  * 2. CEH Hacking Methodology (CHM)
+  * Hacking Methodologies and Frameworks
+  * CEH Hacking Methodology (CHM)
        * Footprinting
        * Scanning
        * Enumeration
@@ -35,9 +31,8 @@
          * Executing Applications
          * Hiding Files
        * Clearing Logs
-         * Covering Tracks
-        
-  * 3. Cyber Kill Chain Methodology
+         * Covering Tracks     
+  * Cyber Kill Chain Methodology
        * Reconnaissance
        * Weaponization
        * Delivery
@@ -45,10 +40,8 @@
        * Installation
        * Command and Control
        * Actions on Objectives
-      
-  * 4. Tactics, Techniques, and Procedures (TTPs)
-  
-  * 5. Adversary Behavioral Identification
+  * Tactics, Techniques, and Procedures (TTPs)
+  * Adversary Behavioral Identification
        * Internal Reconnaisance
        * Use of PowerShell
        * Unspecified Proxy Activities
@@ -57,17 +50,14 @@
        * Command and Control Server
        * Use of DNS Tunneling
        * Use of Web Shell
-       * Data Staging
-      
-  * 6. Indicators of Compromise (IoCs)
-       
-  * 7. Categories of Indicators of Compromise
+       * Data Staging  
+  * Indicators of Compromise (IoCs)
+  * Categories of Indicators of Compromise
        * Email Indicators
        * Network Indicators
        * Host-Based Indicators
-       * Behavioral Indicators
-      
-  * 8. MITRE ATT&CK Framework
+       * Behavioral Indicators 
+  * MITRE ATT&CK Framework
        * Reconnaissance
        * Resource Development
        * Intial Access
@@ -82,22 +72,19 @@
        * Command and Control
        * Exfiltration
        * Impact
-
-  * 9. Diamond Model of Intrusion Analysis
+  * Diamond Model of Intrusion Analysis
        * Adversary
        * Victim
        * Capability
        * Infrastructure
-   
-  * 10. Additional Event Meta-Features
+  * Additional Event Meta-Features
         * Timestamp
         * Phase
         * Result
         * Direction
         * Methodology
         * Resource
-      
-  * 11. Extended Diamond Model
+  * Extended Diamond Model
         * Socio-policital meta-feature
         * Technology meta-feature
     

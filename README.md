@@ -283,12 +283,18 @@
 
 ### Module 5. Vulnerability Analysis
 *  A. Perform Vulnerability Research with Vulnerability Scoring Systems and Databases
+   * Task 1. Perform Vulnerability Research in Common Weakness Enumeration (CWE)
+   * Task 2. Perform Vulnerability Research in Common Vulnerability and Exposures (CVE)
+   * Task 3. Perform Vulnerability Research in National Vulnerability Database (NVD)
    * Online Databases 
      * Common Weakness Enumeration (CWE) : https://cwe.mitre.org/find/index.html
      * Common Vulnerability and Exposures (CVE) : https://cve.mitre.org
      * National Vulnerability Database (NVD) : https://nvd.nist.gov
        
 *  B. Perform Vulnerability Assessment using Various Vulnerability Assessment Tools
+   * Task 1. Perform Vulnerability Analysis using OpenVAS
+   * Task 2. Perform Vulnerability Scanning using Nessus
+   * Task 3. Perform Vulnerability Scanning using GFI LanGuard
    * Package Tools
      * OpenVAS : https://www.greenbone.net/en/openvas-free/
      * Nessus : https://www.tenable.com/downloads/nessus?loginAttempted=true
@@ -302,19 +308,28 @@
 
 ### Module 7. Malware Threats
 * A. Gain Access to Target System using Trojans
-    
+  * Task 1. Gain Control Victim Machine using njRAT Trojans
+  * Task 2. Hide Trojan using SwayzCryptor and Make Undetectable Various Anti-Virus Program
+  * Task 3. Create a Trojan Server using TheefRAT
   * Malware Tools
     * njRAT (Build Malware) : https://github.com/alyaparan/NjRat-0.7D
     * SwayzCryptor (Encrypt Malware) :
     * TheefRAT Trojan v2.10 (Server Trojan) :
       
 * B. Infect Target System using Virus
-    
+  * Task 1. Create Virus using JPS Virus Maker Tool and Infect Target System
   * Malware Tools
     * JPS Virus Maker : https://github.com/Hackalyze-Tools/jps-virus-maker
       
 * C. Perform Static Malware Analysis
-    
+  * Task 1. Perform Malware Scanning using Hybrid Analysis
+  * Task 2. Perform Strings Search using BinText
+  * Task 3. Identify Packaging and Obfuscation Methods using PEid
+  * Task 4. Analyze ELF Executable File using Detect It Easy (DIE)
+  * Task 5. Find Portable Executable (PE) Information of Malware Executable File using PE Explorer
+  * Task 6. Identify File Dependencies using Dependency Walker
+  * Task 7. Perform Malware Disassembly using IDA and OllyDbg
+  * Task 8. Perform Malware Disassembly using Ghidra
   * Online Tools
     * Hybrid Analysis : https://hybrid-analysis.com
     * Virus Total : https://virustotal.com
@@ -347,16 +362,15 @@
     * ProcDump : https://learn.microsoft.com/en-us/sysinternals/downloads/procdump
     
 * D. Perform Dynamic Malware Analysis
-  * Port Monitoring using TCPView and Currports
-  * Process Monitoring using Process Monitor
-  * Registry Monitoring using Reg Organizer
-  * Windows Services Monitoring (SrvMan)
-  * Startup Program Monitoring using Autoruns for Windows and WinPatrol
-  * Installation Monitoring using Mirekusoft Install Monitor
-  * Files and Folder Monitoring using PA File Sight
-  * Device Driver Monitoring using DriverView and Driver Reviver
-  * DNS Monitoring using DNSQuerySniffer
-    
+  * Task 1. Perform Port Monitoring using TCPView and Currports
+  * Task 2. Perform Process Monitoring using Process Monitor
+  * Task 3. Perform Registry Monitoring using Reg Organizer
+  * Task 4. Perform Windows Services Monitoring (SrvMan)
+  * Task 5. Perform Startup Program Monitoring using Autoruns for Windows and WinPatrol
+  * Task 6. Perform Installation Monitoring using Mirekusoft Install Monitor
+  * Task 7. Perform Files and Folder Monitoring using PA File Sight
+  * Task 8. Perform Device Driver Monitoring using DriverView and Driver Reviver
+  * Task 9. Perform DNS Monitoring using DNSQuerySniffer
   * Package Tools
     * TCPView : https://www.sysinternals.com
     * CurrPorts : https://www.nirsoft.net/utils/cports.html#DownloadLinks

@@ -200,6 +200,47 @@
     * AI to Combat AI Threats
 
 * F. Explain the Importance of Applicable Security Laws and Standards
+  * Information Security Laws and Standards
+    * Payment Card Industry Data Security Standard (PCI DSS)
+    * ISO/IEC 27001:2013
+    * Health Insurance Portability and Accountablility Act (HIPAA)
+      * Electronic Transactions and Code Set Standards
+      * Privacy Rule
+      * Security Rule
+      * Employer Identifier Standard
+      * National Provider Identifier Standard (NPI)
+      * Enforcement Rule
+    * Sarbanes Oxley Act (SOX)
+      * Public Company Accounting Oversight Board (PCAOB)
+      * Auditor Independence
+      * Corporate Responsibility
+      * Enhanced Financial Disclosures
+      * Analyst Conflicts of Interest
+      * Commission Resources and Authority
+      * Studies and Reports
+      * Corporate and Criminal Fraud Accountability
+      * White Collar Crime Penalty Enhancement
+      * Corporate Tax Returns
+      * Corporate Fraud Accountablility
+    * The Digital Milennium Copyright Act (DMCA)
+      * Wipo Treaty Implementation
+      * Online Copyright Infringement Liability Limitation
+      * Computer Maintenance or Repair
+      * Miscellaneous Provisions
+      * Protection of Certain Original Designs
+    * The Federal Information Securiy Managmeent Act (FISMA)
+    * General Data Protection Regulation (GDPR)
+      * GDPR Data Protection Principles
+        * Lawfulness, Fairness, and Transparency
+        * Purpose Limitation
+        * Data Minimation
+        * Accuracy
+        * Storage Limitation
+        * Integrity and Confidentiality
+        * Accountability
+      * Data Protection Act 2018 (DPA)
+        * Protection of Personal Data
+      * Cyber Law in Different Countries
 
 ### Module 2. Footprinting and Reconnaissance
 *  A. Footprinting Search Engine

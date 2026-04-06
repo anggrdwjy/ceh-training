@@ -55,11 +55,10 @@
 
 ### Module 2. Footprinting and Reconnaissance
 *  A. Footprinting Search Engine
-     1. Gather Information using Advanced Google Hacking
-     2. Gather Information from Video Search Engines
-     3. Gather Information from FTP Search Engines
-     4. Gather Information from IoT Search Engines
-        
+   * Gather Information using Advanced Google Hacking
+   * Gather Information from Video Search Engines
+   * Gather Information from FTP Search Engines
+   * Gather Information from IoT Search Engines   
    * Online Tools
      * Google Search Engines
      * Mattw : https://mattw.io/youtube-metadata
@@ -67,6 +66,11 @@
      * Shodan : https://shodan.io
 
 *  B. Footprinting Web Services
+   * Find Company Domain and Subdomain using Netcraft
+   * Gather Personal Information using PeekYou Online People Search Services
+   * Gather an Email List using theHarvester
+   * Gather Information using Deep and Dark Web Searching (TOR Browser)
+   * Determine Target OS Passive Footprinting (Censys)
    * Online Tools
      * Netcraft : https://sitereport.netcraft.com
      * Peekyou : https://peekyou.com
@@ -76,6 +80,9 @@
      * TOR Browser : https://torproject.org/download
        
 *  C. Footprinting Social Engineering Sites
+   * Gather Employe Information from Linkedin using theHarvester
+   * Gather Personal Information from Social Engineering Sites using sherlock
+   * Gather Information using Followerwonk
    * Online Tools
      * FollowerWonk : https://www.followerwonk.com/analyze
    * Package Tools
@@ -83,6 +90,13 @@
      * sherlock : https://github.com/sherlock-project/sherlock
        
 *  D. Website Footprinting
+   * Gather Information About Target using PING CMD
+   * Gather Information About Target Website using Photon
+   * Gather Information About Target Website using Central Ops
+   * Extract Company Data using Web Data Extractor
+   * Mirror Target Website using HTTrack Website Copier (Clone Website)
+   * Gather Information About Target Website using GRecon
+   * Gather Wordlist from Target Website using CeWL
    * Online Tools
      * CentralOps : https://www.centralops.net
    * Package Tools
@@ -96,20 +110,27 @@
      * CeWL : https://github.com/digininja/CeWL
        
 *  E. Email Footprinting
+   * Perform Email Footprinting
    * Package Tools
      * eMailTrackerPro : https://emailtracker.website/pro
        
 *  F. Whois Footprinting
+   * Perform Whois Lookup using DomainTools
    * Online Tools
      * DomainTools : https://whois.domaintools.com
        
 *  G. DNS Footprinting
+   * Gather DNS Information using NSLOOKUP
+   * Gather DNS Information using Online Tools
    * Online Tools
      * Kloth : https://kloth.net
    * Package Tools
      * Nslookup
        
 *  H. Perform Network Footprinting
+   * Traceroute from Online Tools
+   * Traceroute from CMD
+   * Traceroute from Linux
    * Online Tools
      * American Registry for Internet Numbers : https://www.arin.net
    * Package Tools
@@ -117,6 +138,12 @@
      * Traceroute
        
 *  I. Perform Footprinting using Footprinting Tools
+   * Footprinting Target using Recon-ng
+   * Footprinting using Maltego
+   * Footprinting Target using OSRFramework
+   * Footprinting Target using FOCA
+   * Footprinting Target using BillCiper
+   * Footprinting Target using OSINT Framework
    * Online Tools
      * OSINT Framework : https://www.osintframework.com 
    * Package Tools

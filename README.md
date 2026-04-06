@@ -78,15 +78,15 @@
        * Capability
        * Infrastructure
   * Additional Event Meta-Features
-        * Timestamp
-        * Phase
-        * Result
-        * Direction
-        * Methodology
-        * Resource
+       * Timestamp
+       * Phase
+       * Result
+       * Direction
+       * Methodology
+       * Resource
   * Extended Diamond Model
-        * Socio-policital meta-feature
-        * Technology meta-feature
+       * Socio-policital meta-feature
+       * Technology meta-feature
     
 
 * C. Explain Hacking Concepts and Diiferent Hacker Classes

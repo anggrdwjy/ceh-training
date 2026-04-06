@@ -1,23 +1,23 @@
 ## Overview
 ### Module 1. Methodology Certified Ethical Hacker
 * A. Explain Information Security Concepts
-  * 1. Elements of Information Security
+  * Elements of Information Security
        * Confidentiality
        * Integrity
        * Availability
        * Authenticity
        * Non-Repudiation
       
-  * 2. Motives, Goals, And Objectives of Information Security Attacks
+  * Motives, Goals, And Objectives of Information Security Attacks
        
-  * 3. Classification of Attacks
+  * Classification of Attacks
        * Passive Attacks
        * Active Attacks
        * Close-in Attacks
        * Insider Attacks
        * Distribution Attacks
       
-  * 4. Information Warfare
+  * Information Warfare
     
 * B. Explain Hacking Methodologies and Frameworks
   * 1. Hacking Methodologies and Frameworks

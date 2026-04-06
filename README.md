@@ -55,6 +55,11 @@
 
 ### Module 2. Footprinting and Reconnaissance
 *  A. Footprinting Search Engine
+     1. Gather Information using Advanced Google Hacking
+     2. Gather Information from Video Search Engines
+     3. Gather Information from FTP Search Engines
+     4. Gather Information from IoT Search Engines
+        
    * Online Tools
      * Google Search Engines
      * Mattw : https://mattw.io/youtube-metadata

@@ -206,6 +206,9 @@
 
 ### Module 4. Enumeration
 *  A. Perform NetBIOS Enumeration
+   * Task 1. Perform NetBIOS Enumeration using CMD
+   * Task 2. Perform NetBIOS Enumeration using NetBIOS Enumeration
+   * Task 3. Perform NetBIOS Enumeration using NMAP NSE Script
    * Package Tools
      * Nbtstat
      * NetBIOSEnumerator : https://nbtenum.sourceforge.net/
@@ -216,6 +219,10 @@
      * Nsauditor Network Security Auditor : https://www.nsauditor.com/
 
 *  B. Perform SNMP Enumeration
+   * Task 1. Perform SNMP Enumeration using snmp-check
+   * Task 2. Perform SNMP Enumeration using SoftPerfect Network Scanner
+   * Task 3. Perform SNMP Enumeration using SnmpWalk
+   * Task 4. Perform SNMP Enumeration using NMAP
    * Package Tools
      * NMAP : https://nmap.org/download
      * Snmp-check : https://www.kali.org/tools/snmpcheck/
@@ -223,6 +230,9 @@
      * SnmpWalk : https://www.kali.org/tools/net-snmp/
      
 *  C. Perform LDAP Enumeration
+   * Task 1. Perform LDAP Enumeration using AD Explorer
+   * Task 2. Perform LDAP Enumeration using Python and NMAP
+   * Task 3. Perform LDAP Enumeration using ldapsearch
    * Package Tools
      * ADExplorer : https://live.sysinternals.com/ADExplorer.exe
      * NMAP : https://nmap.org/download
@@ -230,12 +240,16 @@
      * ldapsearch : https://github.com/dinigalab/ldapsearch
      
 *  D. Perform NFS Enumeration
+   * Task 1. Perform NFS Enumeration using RPCScan and SuperEnum
    * Package Tools
      * NMAP : https://nmap.org/download
      * Superenum : https://github.com/p4pentest/SuperEnum.git
      * RPCScan : https://github.com/hegusung/RPCScan.git
      
 *  E. Perform DNS Enumeration
+   * Task 1. Perform DNS Enumeration using Zone Transfer
+   * Task 2. Perform DNS Enumeration using DNSSEC Zone Walking
+   * Task 3. Perform DNS Enumeration using NMAP
    * Package Tools
      * Dig
      * Nslookup
@@ -247,15 +261,21 @@
      * DNSwalk : https://www.kali.org/tools/dnswalk/
      
 *  F. Perform SMTP Enumeration
+   * Task 1. Perform SMTP Enumeration using NMAP
    * Package Tools
      * NMAP : https://nmap.org/download
      
 *  G. Perform RPC, SMB and FTP Enumeration
+   * Task 1. Perform SMB and RPC Enumeration using NetScanTools Pro
+   * Task 2. Perform RPC, SMB and FTP Enumeration using NMAP
    * Package Tools
      * NetScanTools : https://www.netscantools.com/nstprodemorequestform.html
      * NMAP : https://nmap.org/download
      
 *  H. Perform Enumeration using Various Enumeration Tools
+   * Task 1. Enumerate Information using Global Network Inventory
+   * Task 2. Enumerate Network Resources using Advanced IP Scanner
+   * Task 3. Enumerate Information using Enum4linux
    * Package Tools
      * Global Network Inventory : https://magnetosoft.com/product-global-network-inventory/
      * Angry IP Scanner : https://angryip.org/download/#windows

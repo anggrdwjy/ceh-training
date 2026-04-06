@@ -360,7 +360,7 @@
     * Radare2 : https://rada.re
     * WinDbg : https://windbg.org
     * ProcDump : https://learn.microsoft.com/en-us/sysinternals/downloads/procdump
-    
+
 * D. Perform Dynamic Malware Analysis
   * Task 1. Perform Port Monitoring using TCPView and Currports
   * Task 2. Perform Process Monitoring using Process Monitor
